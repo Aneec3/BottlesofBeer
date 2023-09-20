@@ -9,33 +9,33 @@ public class Main {
             System.err.println(word + " is not a number!");
             return;
         }
-        int b = (int) in.nextDouble(); {
-        int g = b;
+        int bottles = in.nextInt();
+        int OGbottle_amt = bottles;
         System.out.println();
-        while (b > 2) {
-            System.out.print(b + " bottles of beer on the wall, " + b + " bottles of beer. Take one down, pass it around; ");
-            b -= 1;
-            System.out.print(b + " bottles of beer on the wall.\n");
+        while (bottles > 2) {
+            System.out.print(bottles + " bottles of beer on the wall, " + bottles + " bottles of beer. Take one down, pass it around; ");
+            bottles -= 1;
+            System.out.print(bottles + " bottles of beer on the wall.\n");
             System.out.println();
         }
-        while (b == 2) {
-            System.out.print(b + " bottles of beer on the wall, " + b + " bottles of beer. Take one down, pass it around; ");
-            b -= 1;
-            System.out.print(b + " bottle of beer on the wall.\n");
+        while (bottles == 2) {
+            System.out.print(bottles + " bottles of beer on the wall, " + bottles + " bottles of beer. Take one down, pass it around; ");
+            bottles -= 1;
+            System.out.print(bottles + " bottle of beer on the wall.\n");
             System.out.println();
         }
-        while (1 < b) {
-            System.out.print(b + " bottle of beer on the wall, " + b + " bottle of beer. Take one down, pass it around; ");
-            b -= 1;
-            System.out.print(b + " bottle of beer on the wall.\n");
+        while (1 < bottles) {
+            System.out.print(bottles + " bottle of beer on the wall, " + bottles + " bottle of beer. Take one down, pass it around; ");
+            bottles -= 1;
+            System.out.print(bottles + " bottle of beer on the wall.\n");
             System.out.println();
         }
-        while (0 < b) {
-            System.out.print(b + " bottle of beer on the wall, " + b + " bottle of beer. Take one down, pass it around; ");
-            b -= 1;
+        while (0 < bottles) {
+            System.out.print(bottles + " bottle of beer on the wall, " + bottles + " bottle of beer. Take one down, pass it around; ");
+            bottles -= 1;
             System.out.print("no more bottles of beer on the wall.\n");
             System.out.println();
-            System.out.println("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more; " + g + " more bottles of beer on the wall");
+            System.out.println("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more; " + OGbottle_amt + " more bottles of beer on the wall");
         }
     System.out.println();
-    }}}
+    }}
